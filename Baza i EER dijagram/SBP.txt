@@ -1,0 +1,38 @@
+AGENCIJA
+ID(key)
+
+ZGRADA
+ID(key), JMBG_upravnika, ID_agencije, Datum_p, Sifra, Vazenje
+
+LICENCA
+Br_licence(key), Datum_obn, Institucija
+
+ULAZ
+Red_br(key), Je_otvoren, Kamera, ID_zgrade
+
+ZAPOSLENI
+JMBG(key), Lime, Sr_ime, Prezime, Dat_rodj, Mesto_izd, Br_tel, Adresa, Br_lk, ID_agencije
+
+UPRAVNIK
+JMBG(key), Zvanje, Institucija, Dat_dipl, Br_licence
+
+LIFT
+Serijski_br(key), Proizvodjac, Servisiran, U_kvaru, Van_Upotrebe, Tip_prenosa, Br_osoba, Nosivost, ID_zgrade
+
+NIVO
+ID(key), Tip_prostorije, ID_zgrade
+
+PARKING_MESTO
+Red_br(key), Reg_br, Nivo, ID_garaze
+
+LOKAL
+Red_br(key), Ime_firme, Sprat, ID_poslovnogpr
+
+STAN
+Red_br(key), Stanar, Sprat, ID_stambenogpr, JMBG_vlasnika
+
+VLASNIK
+JMBG(key), Lime, Sr_ime, Prezime, Br_tel, Adresa, Tip_posla
+
+
+
