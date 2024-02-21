@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AgencijaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\GarazaDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\GarazaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LicencaDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LicenceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LiftDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LiftoviForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\LokaliForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ParkingMestaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PoslovniProstorDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PoslovniProstorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\StambeniProstorDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\StambeniProstorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\StanoviDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\StanoviForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UlaziForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UpravnikDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UpravnikForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UpravnikIzmeniForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\VlasnikDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\VlasnikForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ZgradaDodajForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ZgradaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PocetnaStranica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
